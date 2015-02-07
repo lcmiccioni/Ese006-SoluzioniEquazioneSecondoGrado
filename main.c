@@ -30,10 +30,6 @@ void esistonoRadiciReali(float a, float b, float c) {
     delta = calcolaDelta(a,b,c);
     if(delta>=0) {
         stampaRisultato(calcolaSoluzione1(a,b,c),calcolaSoluzione2(a,b,c));
-/*
-        calcolaSoluzione1(a,b,c);
-        calcolaSoluzione2(a,b,c);
-*/
     }else {
         printf("Le soluzioni non sono calcolabili in quanto la radice quadrata di un numero negativo non appartiene all'insieme dei numeri reali");
     }
